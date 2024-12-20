@@ -3,9 +3,7 @@ from urllib.parse import parse_qs
 
 
 class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
-    """
-    Обработчик HTTP-запросов, который отвечает на GET и POST запросы.
-    """
+    """Обработчик HTTP-запросов, который отвечает на GET и POST запросы."""
 
     def do_GET(self):
         """
